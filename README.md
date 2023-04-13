@@ -1,4 +1,5 @@
 Flask API for Personal Finance
+
 This is a simple Flask API for managing personal finance data. The API allows users to create, and read financial transactions.
 
 Getting Started
