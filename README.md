@@ -9,7 +9,7 @@ Clone the repository.
 
 Install the required dependencies ( 'pip install flask', 'pip install pymongo', 'pip install marshmallow')
 
-Run 'python app.py' to start the server.
+Run 'python finance.py' to start the server.
 
 The API will be available at http://localhost:5000.
 
