@@ -13,4 +13,31 @@ Run 'python finance.py' to start the server.
 
 The API will be available at http://localhost:5000.
 
-Add the end point for both transactions and budgets 
+Endpoints
+The API has the following endpoints:
+
+GET /transactions
+This endpoint returns a list of all transactions in a json format.
+
+GET /budgets
+This endpoint returns a list of all budgets in ajson format.
+
+POST /transactions
+
+POST http://localhost:5000/transactions HTTP/1.1
+content-type: application/json
+
+{
+    "category":"rent", 
+    "amount":500
+}
+
+POST /budgets
+
+POST http://localhost:5000/budgets HTTP/1.1
+content-type: application/json
+
+{
+    "category":"rent", 
+    "amount":500
+}
